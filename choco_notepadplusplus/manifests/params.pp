@@ -1,6 +1,6 @@
 # choco_notepadplusplus::params - Default parameters
 class choco_notepadplusplus::params {
-  $ensure                   = 'latest'
+  $ensure                   = ''
   $provider                 = 'chocolatey'
   $install_options          = ''
   $uninstall_options        = ''
