@@ -14,11 +14,5 @@ class choco_notepadplusplus (
   $uninstall_options = $choco_notepadplusplus::params::version::uninstall_options,
   $source = $choco_notepadplusplus::params::version::source,
 ) inherits choco_notepadplusplus::params {
-package { 'notepadplusplus.install':
-  ensure              =>  $ensure
-  provider            =>  $provider
-  install_options     =>  $install_options
-  uninstall_options   =>  $uninstall_options
-  source              =>  $source
-  }
+
 }
